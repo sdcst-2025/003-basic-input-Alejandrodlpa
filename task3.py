@@ -12,3 +12,11 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+import math 
+
+a = float(input("give a value to a"))
+b = float(input("enter the value of b"))
+c = float(input("provide a value for c"))
+
+x = str((c-b)/a)
+print(" x is equall to " + x)
